@@ -36,7 +36,7 @@ https://blog.csdn.net/TracyGC/article/details/156197710?spm=1001.2014.3001.5501
 
 
 ### Get Started
-##### Train
+#### Train
 You can train MonoDG here, and you can modify the settings of models and training in configs/monodgc.yaml:
 ```
 CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val7.py --config configs/monodgc.yaml > logs/monodgc.log 2>&1
@@ -45,7 +45,7 @@ You can also run MonoDGP here:
 ```
 CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val.py --config configs/monodgp.yaml > logs/monodgp.log 2>&1
 ```
-##### Test
+#### Test
 The best checkpoint will be evaluated as default. You can change it at "tester/checkpoint" in configs/monodgc.yaml:
 ```
 CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val7.py --config configs/monodgc.yaml -e > logs/monodgc.log 2>&1
