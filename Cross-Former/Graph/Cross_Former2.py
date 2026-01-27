@@ -74,7 +74,7 @@ class Cross_Former2(nn.Module):
     def forward(self, x,
                 adj):
 
- return "The code will be released soon."
+        return "The code will be released soon."
 
 
 
