@@ -2,7 +2,8 @@
 This repository hosts the official implementation of MonoDGC: Dynamic Graph Cross-Former for Monocular 3D Object Detection based on the excellent work MonoDGP. 
 
 #### Results
-Test results submitted to the official KITTI Benchmark:
+You can find the Val results in MonoDGC/monodgc_logs/
+And the Test results submitted to the official KITTI Benchmark: https://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=8380e006c8842386e51232717ccc6790be5e7f78
 
 Car category:
 ![ScreenShot](https://github.com/Tracygc/MonoDGC/blob/main/monodgc_logs/test_car_3d_results.png)
