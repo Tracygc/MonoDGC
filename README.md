@@ -37,7 +37,7 @@ https://blog.csdn.net/TracyGC/article/details/156197710?spm=1001.2014.3001.5501
 
 ### Get Started
 #### Train
-You can train MonoDG here, and you can modify the settings of models and training in configs/monodgc.yaml:
+You can train MonoDGC here, and you can modify the settings of models and training in configs/monodgc.yaml:
 ```
 CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val7.py --config configs/monodgc.yaml > logs/monodgc.log 2>&1
 ```
@@ -55,12 +55,15 @@ Test the inference time on your own device:
 python tools/test_runtime.py
 ```
 
+### Node classification and Graph classification
+You can refer to MonoDGC/Cross-Former in detail.
+
+
 ### Reference Links
 ```
 https://github.com/PuFanqi23/MonoDGP
 https://github.com/ZrrSkywalker/MonoDETR
 https://github.com/SuperMHP/GUPNet_Plus
 ```
-
 
 
