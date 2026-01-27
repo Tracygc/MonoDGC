@@ -48,7 +48,7 @@ CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val.py --config configs/monodgp.
 #### Test
 The best checkpoint will be evaluated as default. You can change it at "tester/checkpoint" in configs/monodgc.yaml:
 ```
-CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val7.py --config configs/monodgc.yaml -e > logs/monodgc.log 2>&1
+CUDA_VISIBLE_DEVICES=0 nohup python tools/train_val7.py --config configs/monodgc.yaml -e > logs/monodgc_test.log 2>&1
 ```
 Test the inference time on your own device:
 ```
