@@ -5,7 +5,7 @@ This repository hosts the official implementation of MonoDGC: Dynamic Graph Cros
 Test results submitted to the official KITTI Benchmark:
 
 Car category:
- ![Image text] (https://github.com/Tracygc/MonoDGC/blob/main/monodgc_logs/test_car_3d_results.png"Optional title")
+![ScreenShot](https://github.com/Tracygc/MonoDGC/blob/main/monodgc_logs/test_car_3d_results.png)
 
 ### Dataset Structure
 Download KITTI datasets on https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d and prepare the directory structure as:
