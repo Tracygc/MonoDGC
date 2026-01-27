@@ -74,27 +74,7 @@ class Cross_Former2(nn.Module):
     def forward(self, x,
                 adj):
 
-        x = F.dropout(x, self.dropout, training=self.training)
-        #(32,28,11)
-        x0 = self.lin1(x) #(32,28,64) # 自身
-        h_10 = torch.sum(x0, 1)#(32,64)
-
-        x1 = self.lin1(x) #(32,28,64) # 自身
-        h_1g = self.layers[0](x1,adj)  #(32,28,64)
-
-
-        h_1g = self.final_ln(h_1g)
-        h_1g = F.relu(h_1g)
-
-
-        h_n2 = torch.cat((h_10, h_1g), dim=1)
-        h_n2 = F.dropout(h_n2, self.dropout, training=self.training)
-
-
-        x2 = self.linear(h_n2)
-        # print(x2.shape)  #(32,2)
-
-        return torch.log_softmax(x2, dim=1)
+ return "The code will be released soon."
 
 
 
