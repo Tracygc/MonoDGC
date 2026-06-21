@@ -1,4 +1,4 @@
-# MonoDGC: Dynamic Graph Cross-Former for Monocular 3D Object Detection
+# MonoDGC: Image-Plane Dynamic Graph Cross-Former for Monocular 3D Object Detection
 This repository hosts the official implementation of MonoDGC: Dynamic Graph Cross-Former for Monocular 3D Object Detection based on the excellent work MonoDGP. 
 
 #### Results
